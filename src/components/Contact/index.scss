@@ -1,14 +1,26 @@
-.home-page {
-    .text-zone {
-      position: relative;
-      left: 10%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 40%;
-      max-height: 90%;
-    }
+.contact-page {
+    .text {
+        position: absolute;
+        left:62%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        max-height: 90%;
+      }
+      .text_p {
+        position: absolute;
+        left:62%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        max-height: 90%;
+        margin-left: -52px; /* add this line */
+        p {
+            font-size: 15px; /* add this line */
+          }
+      }
     img {
-      left: 50%;
+      margin-left: 900px;
       opacity: 0;
       width: 500px;
       position: absolute;
@@ -80,50 +92,3 @@
       }
     }
   }
-  
-  
-  
-  @media screen and (max-width: 1200px) {
-    .tags,
-    .home-page h1:before,
-    .home-page h1:after {
-      display: none;
-    }
-  
-    .home-page .text-zone {
-      position: initial;
-      width: 100%;
-      transform: none;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-  
-    .home-page .flat-button {
-      float: none;
-      display: block;
-      margin: 20px auto 0 auto;
-      width: 124px;
-    }
-  
-    .logo-container {
-      position: relative;
-      width: 100px;
-      height: auto;
-      top: 50px;
-      right: 0;
-      box-sizing: border-box;
-      margin: auto;
-      left: 0;
-    }
-  
-    .logo-container svg {
-      position: absolute;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: 0;
-      margin: auto;
-    }
-    
-  }
-  

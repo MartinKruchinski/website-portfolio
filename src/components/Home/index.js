@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoM from '../../assets/images/logo-m.png'
+import LogoM from '../../assets/images/photo_martin.jpg'
 import './index.scss'
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
     'e',
     'r',
     ' ',
-    'e',
+    'E',
     'n',
     'g',
     'i',
@@ -30,7 +30,21 @@ const Home = () => {
     'n',
     'g',
     ' ',
-    's',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    'S',
     't',
     'u',
     'd',
@@ -75,7 +89,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <img src={LogoM} alt="Logo"/>
+        {/* <img src={LogoM} alt="Logo"/> */}
       </div>
     </>
   )
